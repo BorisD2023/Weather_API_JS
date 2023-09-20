@@ -1,5 +1,5 @@
 # Weather_API_JS
 
-### Links
+### Link
 
 -   Solution URL: [https://borisd2023.github.io/Weather_API_JS/]
