@@ -61,6 +61,10 @@ const directionDeg = (deg) => {
     if (deg <= 19.99) return `North (${deg}°)`;
 };
 
+window.addEventListener("load", () => {
+    localTimeArticle.style.boxShadow = "none";
+});
+
 //! Click Function
 
 checkBtn.addEventListener("click", (event) => {
@@ -291,8 +295,4 @@ resetBtn.addEventListener("click", () => {
     imgReset.style.borderRadius = "50px";
     localTimeArticle.style.display = "none";
     cityInput.value = "";
-});
-
-window.addEventListener("load", () => {
-    localTimeArticle.style.boxShadow = "none";
 });
